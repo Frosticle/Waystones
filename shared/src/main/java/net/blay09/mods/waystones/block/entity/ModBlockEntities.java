@@ -9,9 +9,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import org.apache.commons.lang3.ArrayUtils;
 
-import java.util.Arrays;
-import java.util.function.Supplier;
-
 public class ModBlockEntities {
     public static DeferredObject<BlockEntityType<WaystoneBlockEntity>> waystone;
     public static DeferredObject<BlockEntityType<SharestoneBlockEntity>> sharestone;
@@ -30,7 +27,13 @@ public class ModBlockEntities {
                         ModBlocks.graniteWaystone,
                         ModBlocks.deepslateWaystone,
                         ModBlocks.smoothWaystone,
-                        ModBlocks.prismarineWaystone
+                        ModBlocks.prismarineWaystone,
+                        ModBlocks.basaltWaystone,
+                        ModBlocks.quartzWaystone,
+                        ModBlocks.blackWaystone,
+                        ModBlocks.netherWaystone,
+                        ModBlocks.endWaystone,
+                        ModBlocks.purpurWaystone
                 });
         sharestone = blockEntities.registerBlockEntity(id("sharestone"), SharestoneBlockEntity::new, () -> ArrayUtils.add(ModBlocks.scopedSharestones, ModBlocks.sharestone));
         warpPlate = blockEntities.registerBlockEntity(id("warp_plate"), WarpPlateBlockEntity::new, () -> new Block[] {ModBlocks.warpPlate});

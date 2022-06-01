@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "waystones:quartz_waystone"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SWS",
+    "OOO"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:quartz_block"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  }
+}

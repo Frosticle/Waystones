@@ -24,6 +24,12 @@ public class ModBlocks {
     public static Block mossyWaystone;
     public static Block sandyWaystone;
     public static Block redSandyWaystone;
+    public static Block basaltWaystone;
+    public static Block quartzWaystone;
+    public static Block blackWaystone;
+    public static Block netherWaystone;
+    public static Block endWaystone;
+    public static Block purpurWaystone;
     public static Block sharestone;
     public static Block warpPlate;
     public static Block portstone;
@@ -40,6 +46,13 @@ public class ModBlocks {
         blocks.register(() -> mossyWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(mossyWaystone), id("mossy_waystone"));
         blocks.register(() -> sandyWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(sandyWaystone), id("sandy_waystone"));
         blocks.register(() -> redSandyWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(redSandyWaystone), id("red_sandy_waystone"));
+        blocks.register(() -> basaltWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(basaltWaystone), id("basalt_waystone"));
+        blocks.register(() -> quartzWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(quartzWaystone), id("quartz_waystone"));
+        blocks.register(() -> blackWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(blackWaystone), id("black_waystone"));
+        blocks.register(() -> netherWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(netherWaystone), id("nether_waystone"));
+        blocks.register(() -> endWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(endWaystone), id("end_waystone"));
+        blocks.register(() -> purpurWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(purpurWaystone), id("purpur_waystone"));
+
         blocks.register(() -> sharestone = new SharestoneBlock(defaultProperties(), null), () -> itemBlock(sharestone), id("sharestone"));
         blocks.register(() -> warpPlate = new WarpPlateBlock(defaultProperties()), () -> itemBlock(warpPlate), id("warp_plate"));
         blocks.register(() -> portstone = new PortstoneBlock(defaultProperties()), () -> itemBlock(portstone), id("portstone"));
