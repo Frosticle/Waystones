@@ -1,7 +1,7 @@
 {
     "textures": {
-        "particle": "block/polished_andesite",
-        "texture": "waystones:block/andesite_waystone"
+        "particle": "block/chiseled_stone_bricks",
+        "texture": "waystones:block/stone_waystone"
     },
     "elements": [
         {   "name": "baseBottom",

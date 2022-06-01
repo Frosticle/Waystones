@@ -15,8 +15,15 @@ import net.minecraft.world.level.material.Material;
 public class ModBlocks {
 
     public static Block waystone;
+    public static Block andesiteWaystone;
+    public static Block dioriteWaystone;
+    public static Block graniteWaystone;
+    public static Block deepslateWaystone;
+    public static Block smoothWaystone;
+    public static Block prismarineWaystone;
     public static Block mossyWaystone;
     public static Block sandyWaystone;
+    public static Block redSandyWaystone;
     public static Block sharestone;
     public static Block warpPlate;
     public static Block portstone;
@@ -24,8 +31,15 @@ public class ModBlocks {
 
     public static void initialize(BalmBlocks blocks) {
         blocks.register(() -> waystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(waystone), id("waystone"));
+        blocks.register(() -> andesiteWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(andesiteWaystone), id("andesite_waystone"));
+        blocks.register(() -> dioriteWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(dioriteWaystone), id("diorite_waystone"));
+        blocks.register(() -> graniteWaystone = new WaystoneBlock(defaultProperties()), ()-> itemBlock(graniteWaystone), id("granite_waystone"));
+        blocks.register(() -> deepslateWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(deepslateWaystone), id("deepslate_waystone"));
+        blocks.register(() -> smoothWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(smoothWaystone), id("smooth_waystone"));
+        blocks.register(() -> prismarineWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(prismarineWaystone), id("prismarine_waystone"));
         blocks.register(() -> mossyWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(mossyWaystone), id("mossy_waystone"));
         blocks.register(() -> sandyWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(sandyWaystone), id("sandy_waystone"));
+        blocks.register(() -> redSandyWaystone = new WaystoneBlock(defaultProperties()), () -> itemBlock(redSandyWaystone), id("red_sandy_waystone"));
         blocks.register(() -> sharestone = new SharestoneBlock(defaultProperties(), null), () -> itemBlock(sharestone), id("sharestone"));
         blocks.register(() -> warpPlate = new WarpPlateBlock(defaultProperties()), () -> itemBlock(warpPlate), id("warp_plate"));
         blocks.register(() -> portstone = new PortstoneBlock(defaultProperties()), () -> itemBlock(portstone), id("portstone"));
