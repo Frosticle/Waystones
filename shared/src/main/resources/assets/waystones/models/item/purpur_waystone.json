@@ -1,6 +1,6 @@
 {
   "textures": {
-    "particle": "block/purpur_blocks",
+    "particle": "block/purpur_block",
     "texture": "waystones:block/purpur_waystone"
   },
   "elements": [
